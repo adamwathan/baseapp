@@ -15,12 +15,12 @@
 	},
 	"autoload": {
 		"classmap": [
-			"app/commands",
-			"app/database/migrations",
-			"app/database/seeds",
+			"framework/commands",
+			"framework/database/migrations",
+			"framework/database/seeds",
 			"tests/TestCase.php",
 			"tests/FunctionalTestCase.php",
-			"src"
+			"app"
 		]
 	},
 	"scripts": {

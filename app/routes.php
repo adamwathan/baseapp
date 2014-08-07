@@ -1,6 +1,6 @@
 <?php
 
-require_once base_path().'/src/filters.php';
+require_once __DIR__.'/filters.php';
 
 /*
 |--------------------------------------------------------------------------

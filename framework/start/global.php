@@ -66,4 +66,4 @@ App::down(function()
 	return Response::make("Be right back!", 503);
 });
 
-require base_path().'/src/routes.php';
+require base_path().'/app/routes.php';

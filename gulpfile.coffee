@@ -8,10 +8,10 @@ concat = require 'gulp-concat'
 uglify = require 'gulp-uglify'
 minify = require 'gulp-minify-css'
 
-lessDir = 'src/assets/less'
+lessDir = 'app/assets/less'
 cssTarget = 'public/css'
 
-coffeeDir = 'src/assets/coffee'
+coffeeDir = 'app/assets/coffee'
 jsTarget = 'public/js'
 
 gulp.task 'less', ->
