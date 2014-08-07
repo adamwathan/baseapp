@@ -1,3 +1,3 @@
 <?php
 
-require base_path().'/tests/factories.php';
+require app_path().'/tests/factories.php';

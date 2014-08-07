@@ -14,7 +14,8 @@
 ClassLoader::addDirectories(array(
 
 	base_path().'/commands',
-	base_path().'/src',
+    app_path().'/controllers',
+	app_path().'/src',
 	base_path().'/database/seeds',
 
 ));
@@ -66,4 +67,5 @@ App::down(function()
 	return Response::make("Be right back!", 503);
 });
 
-require base_path().'/src/routes.php';
+require app_path().'/filters.php';
+require app_path().'/routes.php';

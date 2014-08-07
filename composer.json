@@ -16,11 +16,12 @@
 	"autoload": {
 		"classmap": [
 			"app/commands",
+			"app/controllers",
 			"app/database/migrations",
 			"app/database/seeds",
-			"tests/TestCase.php",
-			"tests/FunctionalTestCase.php",
-			"src"
+			"app/tests/TestCase.php",
+			"app/tests/FunctionalTestCase.php",
+			"app/src"
 		]
 	},
 	"scripts": {

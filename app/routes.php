@@ -1,7 +1,5 @@
 <?php
 
-require_once base_path().'/src/filters.php';
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
